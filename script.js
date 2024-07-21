@@ -104,7 +104,7 @@ const loop = setInterval(() => {
         mario.style.animation = 'none';
         barril.style.left = `${posicaoBarril}px`;
 
-        mario.src = '../imagens/game-over.png';
+        mario.src = 'imagens/game-over.png';
         mario.style.bottom = `${posicaoBottomMario}px`;
         mario.style.left = '50px';
         
